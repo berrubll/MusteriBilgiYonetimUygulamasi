@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LogOuOrExit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CustomerDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NewCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DatabaseHelper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NewWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BillDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NewBillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BillAddProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
